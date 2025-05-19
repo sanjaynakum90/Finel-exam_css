@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: gainsboro;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: repeat;
+}
+
+.container {
+    margin: auto;
+    padding: 50px 0px;
+    width: 1353px;
+    height: 277px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup-container {
+    margin: auto;
+    width: 631px;
+    height: 177px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h1 {
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.signup-container button {
+    background-color: #8bc34a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #7cb342;
+}
+
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #f04;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-menu {
+    margin-top: 15px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logo-social {
+    margin-top: 15px;
+}
+
+.logo-social img {
+    height: 40px;
+    margin: 0 5px;
+}
